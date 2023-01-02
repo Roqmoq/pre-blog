@@ -12,9 +12,10 @@ npm run dev
 
 
 # Todo
-
+  
 - [x] Next.jsの雛形作成
-- [ ] volta導入
+- [x] volta導入
+- [x] prettier導入
 - [ ] Markdown形式 (プラグイン or MDX or Contentlayer)
 - [ ] Storybook対応
 - [ ] CSSフレームワーク対応
@@ -43,3 +44,13 @@ volta pin node@18.12.1
 ```
 
 Outline、Todo追記
+
+## Step3
+
+Prettierの追加
+
+```agsl
+npm install -s -D prettier eslint-config-prettier
+```
+
+.eslintrc.jsonの変更  
