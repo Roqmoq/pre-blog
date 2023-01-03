@@ -16,7 +16,7 @@ npm run dev
 - [x] Next.jsの雛形作成
 - [x] volta導入
 - [x] prettier導入
-- [ ] Markdown形式 (プラグイン or MDX or Contentlayer)
+- [x] Markdown形式 (MDX)
 - [ ] Storybook対応
 - [ ] CSSフレームワーク対応
 - [ ] Jest対応
