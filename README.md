@@ -87,4 +87,12 @@ module.exports = withMDX({
 
 サンプルとしてpages/my-mdx-page.mdxを用意  
   
-Todo追記
+Todo追記  
+  
+## Step5  
+
+Githubのリポジトリページにて「Settings」→「Pages」→「Build and deployment」で「Github Actions」を選択→「Configure」をクリック→「Commit changes」をクリック→
+.github/workflows/nextjs.yml が作成される  
+  
+これでdeployが失敗するので下記の記事を参考に修正  
+https://zenn.dev/sev3e3e/articles/3fc5a2a7333856
