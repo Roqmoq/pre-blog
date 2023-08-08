@@ -96,3 +96,10 @@ Githubのリポジトリページにて「Settings」→「Pages」→「Build a
   
 これでdeployが失敗するので下記の記事を参考に修正  
 https://zenn.dev/sev3e3e/articles/3fc5a2a7333856
+
+
+## Step6   
+  
+https://roqmoq.github.io/pre-blog/ にデプロイできているはずだが、`Failed to load resource: the server responded with a status of 404 ()`の類のエラーが大量に出ている  
+ルートに.nojekyllという空ファイルを設置  
+ついでに.ideaをgitignore化　　
