@@ -102,4 +102,5 @@ https://zenn.dev/sev3e3e/articles/3fc5a2a7333856
   
 https://roqmoq.github.io/pre-blog/ にデプロイできているはずだが、`Failed to load resource: the server responded with a status of 404 ()`の類のエラーが大量に出ている  
 ルートに.nojekyllという空ファイルを設置  
+https://ysuzuki19.github.io/post/github-pages-failed-to-load-resource を参照  
 ついでに.ideaをgitignore化　　
