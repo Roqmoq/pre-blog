@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: process.env.GITHUB_ACTIONS && "/pre-blog",
+  trailingSlash: true,
   reactStrictMode: true,
 }
 
